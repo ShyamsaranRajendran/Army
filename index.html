@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NETWORKED MUNITION CONTROL GUI</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <style>
+        
+
+    .group1-container3 {
+      display: inline-block;
+      margin-left: 30px;
+      padding-left: 5px;
+    }
+
+    iframe {
+      border: 0;
+    }
+         .button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  color: #3498db;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+        html {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+        }
+
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-gray-black);
+            background-color: var(--dl-color-gray-white);
+        }
+
+         /* Button Styles */
+    .styled-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border: 2px solid #3498db;
+      color: #3498db;
+      background-color: #fff;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Hover Effect */
+    .styled-button:hover {
+      background-color: #3498db;
+      color: #fff;
+    }
+    
+    .back{
+      background-color: #03090e;
+      border-radius: 10px;
+      padding: 20px; /* Adjust the padding as needed */
+      color: white; /* Set text color to white or another suitable color */
+      text-align: center;
+    }
+    </style>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" />
+    
+    <link rel="stylesheet" href="index.css">
+    </style>
+</head>
+<body class="container">
+    <div class="group1-container">
+        <h1 class="group1-text">NETWORKED MUNITION CONTROL GUI</h1>
+        <img src="indianarmy-200h.png" alt="image" class="group1-image">
+        
+        <div class="d-flex flex-wrap">
+            <button type="button" class="group1-field-clear button">
+                <span class="group1-text04">
+                    <span>FIELD CLEAR</span>
+                    <br />
+                </span>
+            </button>
+            <button type="button" class="group1-auto-manual01 button">
+                <span class="group1-text07">
+                    <span>ARM</span>
+                    <br />
+                </span>
+            </button>
+            <button type="button" class="group1-auto-manual02 button">
+                <span class="group1-text10">
+                    <span>DISARM</span>
+                    <br />
+                </span>
+            </button>
+            <!-- Add more buttons here -->
+            <div class="">
+                <button type="button" class="group1-auto-manual03 button">
+                  <span class="group1-text13"> <br>
+                    <div class="group1-container4" style="padding-top: 10px;">
+                      <img src="makeinindia-700h.jpeg" alt="image" class="group1-image1">
+                  </div>
+                  <br>
+                    <span>OPTIONS</span>
+                    <br />
+                  </span>
+                </button>
+                
+                <button type="button" class="group1-auto-manual04 button">
+                  <span class="group1-text16">
+                    
+                    <span>OPTIONS</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-auto-manual05 button">
+                  <span class="group1-text19">
+                    <span>OPTIONS</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-auto-manual06 button">
+                  <span class="group1-text22">
+                    <span>OPTIONS</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-auto-manual07 button">
+                  <span class="group1-text25">
+                    <span>OPTIONS</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-auto-manual08 button">
+                  <span class="group1-text28">
+                    <span>OPTIONS</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-option button">
+                  <span class="group1-text31">
+                    <span>OPTIONS</span>
+                    <br />
+                  </span>
+                </button>
+                </div>
+                <button type="button" class="group1-arm button">
+                  <span class="group1-text34">
+                    <span>ARM</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-disarm button">
+                  <span class="group1-text37">
+                    <span>DISARM</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-engage button">
+                  <span class="group1-text40">
+                    <span>ENGAGE ALL</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-munition-1 button">
+                  <span class="group1-text43">
+                    <span>MUNITION 1</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-munition-2 button">
+                  <span class="group1-text46">
+                    <span>MUNITION 2</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-back button">
+                  <span class="group1-text49">BACK</span>
+                </button>
+                <button type="button" class="group1-functions"  style="text-align: center;" >
+                  <span class="group1-text50" style="text-align: center;">
+                    <span >FUNCTIONS</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-munition-3 button">
+                  <span class="group1-text53">
+                    <span>MUNITION 3</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-munition-5 button">
+                  <span class="group1-text56">
+                    <span>MUNITION 5</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-fwd button">
+                  <span class="group1-text59">
+                    <span>FWD</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-munition-4 button">
+                  <span class="group1-text62">
+                    <span>MUNITION 4</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-fire button">
+                  <span class="group1-text65">
+                    <span>FIRE</span>
+                    <br />
+                  </span>
+                </button>
+                <button type="button" class="group1-auto-manual09 button">
+                  <span class="group1-text68">
+                    <span>AUTO / MANUAL</span>
+                    <br />
+                  </span>
+                </button>
+        </div>
+
+        <div class="group1-container1">
+            <div class="group1-container2">
+                <div class="group1-container3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1753.6441499119455!2d77.02645671215627!3d28.47086309677602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1701256295912!5m2!1sen!2sin" width="100%" height="600"></iframe>
+                </div>
+            </div>
+          
+        </div>
+
+            <h1 class="group1-text71">
+         
+                <span>STATUS</span>
+
+                <br />
+            </h1>
+            <h1 class="group1-text74">
+                <span>m 1</span>
+                <br />
+            </h1>
+            <h1 class="group1-text77">
+                <span>m 2</span>
+                <br />
+            </h1>
+            <h1 class="group1-text80">m 3</h1>
+            <h1 class="group1-text81">m 4</h1>
+            <h1 class="group1-text82">m 5
+              
+            </h1>
+          
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
